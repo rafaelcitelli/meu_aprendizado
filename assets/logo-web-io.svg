@@ -1,0 +1,18 @@
+<svg width="220" height="64" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="webio-gradient" x1="16" y1="8" x2="200" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF"/>
+      <stop offset="0.35" stop-color="#1E40AF"/>
+      <stop offset="0.68" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="#0F172A"/>
+  <path d="M18 20L24.8 44L31 28L37.2 44L44 20" stroke="url(#webio-gradient)" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="31" cy="32" r="17" stroke="#E2E8F0" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M78 21.5H87.8L95.2 42.2L102.6 21.5H111.8L100.6 50H89.2L78 21.5Z" fill="#0F172A"/>
+  <path d="M118.7 50V21.5H140.9V28.6H127.1V32.7H139.8V39.4H127.1V43H141.4V50H118.7Z" fill="#0F172A"/>
+  <path d="M148 50V21.5H156.4V50H148Z" fill="#0F172A"/>
+  <path d="M175.7 50.6C167 50.6 160.6 44.3 160.6 35.8C160.6 27.2 167 20.9 175.7 20.9C184.4 20.9 190.8 27.2 190.8 35.8C190.8 44.3 184.4 50.6 175.7 50.6ZM175.7 43.1C179.4 43.1 182.2 40.1 182.2 35.8C182.2 31.4 179.4 28.4 175.7 28.4C172 28.4 169.2 31.4 169.2 35.8C169.2 40.1 172 43.1 175.7 43.1Z" fill="#0F172A"/>
+  <circle cx="204" cy="36" r="5" fill="#F97316"/>
+</svg>
