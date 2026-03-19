@@ -126,6 +126,33 @@ http://localhost:4173
 npx serve .
 ```
 
+## Publicação no GitHub Pages
+
+Este repositório já está preparado para deploy automático no **GitHub Pages** via **GitHub Actions**.
+
+### Como publicar
+
+1. Faça push deste projeto para um repositório no GitHub.
+2. Vá em **Settings > Pages**.
+3. Em **Source**, selecione **GitHub Actions**.
+4. Garanta que sua branch principal seja `main` ou `master`.
+5. Faça um novo push; o workflow `.github/workflows/deploy-pages.yml` publicará o site automaticamente.
+
+### Observações sobre esta publicação
+
+- O projeto é estático, então não exige etapa de build no GitHub Pages.
+- O arquivo `404.html` foi incluído para servir como fallback estático em acessos diretos.
+- O arquivo `.nojekyll` evita processamento desnecessário do Pages com Jekyll.
+- Como a aplicação usa dados mock com `localStorage`, cada visitante terá seu próprio estado local.
+
+### URL esperada
+
+Depois da publicação, o projeto ficará acessível em uma URL parecida com:
+
+```text
+https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/
+```
+
 ## Configuração do Supabase
 
 Para transformar esta demo em um projeto full stack real com Supabase:
